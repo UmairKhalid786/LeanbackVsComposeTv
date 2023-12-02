@@ -1,0 +1,38 @@
+[versions]
+agp = "8.3.0-alpha14"
+appcompat = "1.5.1"
+constraintlayout = "2.1.4"
+glide = "4.15.1"
+gson = "2.8.9"
+kotlin = "1.9.20"
+coreKtx = "1.12.0"
+leanback = "1.2.0-alpha04"
+legacySupportV4 = "1.0.0"
+material = "1.7.0"
+lifecycle = "2.6.2"
+androidComposeCompiler = "1.5.5"
+tv-compose = "1.0.0-alpha10"
+androidx-activity-compose = "1.8.1"
+coils = "2.5.0"
+
+[libraries]
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-leanback = { module = "androidx.leanback:leanback", version.ref = "leanback" }
+androidx-legacy-support-v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "legacySupportV4" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+lifecycle = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+
+compose-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "androidComposeCompiler" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity-compose" }
+androidx-tv-foundation = { module = "androidx.tv:tv-foundation", version.ref = "tv-compose" }
+androidx-tv-material = { module = "androidx.tv:tv-material", version.ref = "tv-compose" }
+coils-compose = { module = "io.coil-kt:coil-compose", version.ref = "coils" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
