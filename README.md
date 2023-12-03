@@ -11,4 +11,3 @@ A Leanback vs TV Compose example live coding at Google Dev Fest Stockholm 2023
 
 ## Compose
 ![compose](https://github.com/UmairKhalid786/LeanbackVsComposeTv/assets/21205138/ab90b614-ec2c-48c4-81bd-3f5426c7b98b)
-
